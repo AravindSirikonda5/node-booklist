@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Booklist Sign Up</title>
+  </head>
+  <body>
+    <nav class="nav p-2 bg-light">
+      <a class="nav-link mr-auto" href="/">Node Booklist</a>
+    </nav>
+
+    <section id="sign-up" class="container mt-4">
+      <p class="auth-message">Sign Up or <a href="/auth/sign-in">Sign In</a></p>
+      <form name="sign-up-form" action="/auth/sign-up" method="post">
+        <div class="form-group">
+          <label for="username">UserName</label>
+          <input type="text" id="username" name="username" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-secondary">Sign Up</button>
+      </form>
+    </section>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+.nav-link {
+  color: black;
+}
+
+.list-group-item {
+  padding: 1rem 0.9rem 0.95rem 0.9rem;
+}
+
+.book {
+  line-height: 1.2rem;
+}
+
+.book-title {
+  font-size: 1.5rem;
+}
+
+.book-author {
+  margin-left: 0.09rem;
+  margin-bottom: 0;
+}
+
+.auth-message {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
